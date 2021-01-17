@@ -1,0 +1,51 @@
+{
+  "name": "videx-gsm-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:watch": "nodemon index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiesoncj/videx-gsm-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamiesoncj/videx-gsm-app/issues"
+  },
+  "homepage": "https://github.com/jamiesoncj/videx-gsm-app#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dot-prop": "^6.0.1",
+    "dotenv": "^8.2.0",
+    "email-addresses": "^4.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-sanitized": "^0.5.1",
+    "express-validation": "^3.0.6",
+    "helmet": "^4.3.1",
+    "html-to-text": "^6.0.0",
+    "http-status": "^1.5.0",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "juice": "^7.0.0",
+    "mailgun-js": "^0.22.0",
+    "moment": "^2.29.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.13",
+    "twilio": "^3.54.2",
+    "underscore": "^1.12.0",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "supertest": "^6.0.1"
+  }
+}
